@@ -1,24 +1,48 @@
 *{
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+
+    
 }
 
-h2 {color: red;
-background-color: aqua;
-font-size: 60px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-border: 1px dashed black;
+h1, h2 {color: rgb(46, 74, 188);
+ /*background-color: aqua;*/
+
+border: 1px solid black;
+font-size: 40px;
 border-radius: 12px;
-text-align: center;
+text-align: left;
 letter-spacing: 0.2em;}
 
 header {
     border: 4px dashed black;
 }
-nav {
+  header nav  ul li {
     font-size: 20px;
     color: brown;
+    display: inline;
+    font-style: italic;
+    
+    
+    
 }
+a {text-decoration: none;
+color: blue;}
+a:hover{color: red;}
+a:visited{color: green;}
 div {width: 200px; 
     height: 200px; 
-    background-color: blue;border: 6px solid black;padding: 20px;margin:6px ;
+    background-color: rgb(118, 203, 40);border: 6px solid black;padding: 20px;margin:6px ;
 color: white;}
+img {
+    border: 1px solid black;
+    
+}
+th {
+    text-align: left;
+}
+footer nav ul li {
+    display: inline;
+    color: rgb(9, 100, 27);
+}
