@@ -6,17 +6,18 @@
     
 }
 
-h1, h2 {color: rgb(46, 74, 188);
+h1, h2 {color: rgb(46, 188, 122);
  /*background-color: aqua;*/
 
 border: 1px solid black;
-font-size: 40px;
+font-size: 30px;
 border-radius: 12px;
 text-align: left;
 letter-spacing: 0.2em;}
 
 header {
     border: 4px dashed black;
+    background-image:image()
 }
   header nav  ul li {
     font-size: 20px;
@@ -37,7 +38,7 @@ div {width: 200px;
 color: white;}
 img {
     border: 1px solid black;
-    
+
 }
 th {
     text-align: left;
